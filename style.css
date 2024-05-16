@@ -1,0 +1,620 @@
+body {
+  font-family: "Bai Jamjuree";
+  padding-bottom: 30px;
+}
+
+p{
+  color: black;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  margin-right: 50px;
+  color: #666666;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  background-color: transparent;
+
+  text-decoration: none;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropdown-contentz{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  margin-left: 160px;
+  margin-top: -50px;
+}
+
+.dropdown-contentz a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-submenu{
+  opacity: 1;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: black; color: white;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block; background-color: white;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: white; }
+ul {
+  list-style: none;
+}
+
+
+/* Show dropdown-contentz when dropdown-submenu is hovered */
+.dropdown-submenu:hover + .dropdown-contentz {
+  display: block;
+}
+
+/* Hide dropdown-contentz when mouse moves away from dropdown-submenu 
+.dropdown-submenu:not(:hover) + .dropdown-contentz {
+  display: none;
+}
+*/
+/* Show dropdown-contentz when dropdown-submenu is hovered */
+.dropdown-submenu:hover .dropdown-contentz,
+.dropdown-contentz:hover {
+  display: block;
+}
+
+/* Initially hide the dropdown-contentz */
+.dropdown-contentz {
+  display: none;
+}
+
+
+.nav_link_li {
+  margin-right: 50px;
+  color: #666666;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.header_container {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 40px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.nav_link {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+}
+
+.logo {
+  margin: 0;
+}
+
+.social_link {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.social_link li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.main_container {
+  margin-top: 5.5rem;
+}
+
+
+@keyframes slideFromLeft {
+  0% {
+    margin-left: -100%; /* Start off-screen to the left */
+  }
+  100% {
+    margin-left: 0; /* Slide to the original position */
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info img{
+  height:232px;
+  width: 230px;
+  border-radius: 50%;
+  margin-bottom: 0px;
+}
+
+.sub-title{
+  margin-top: -40px;
+}
+
+.info{
+  text-align: center;
+  margin-top: 0px;
+}
+
+.info2{
+  font-size: 20px;
+  margin-left: 2px;
+  color: #666666;
+}
+
+.heading{
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(0deg, #b16cea 14%, #ff5e69 45%, #ff8a56 72%, #ffa84b 100%);
+  -webkit-background-clip: text; /* For Safari */
+  background-clip: text;
+  color: transparent; /* Hide original text */
+  margin-top: 0px;
+}
+
+.sub-heading{
+  font-size: 48px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: -40px;
+}
+
+
+.button2{
+  width: 205px;
+  height: 50px;
+  border-radius: 30px;
+  background: transperent; 
+  color: black;
+
+  transition: 0.5s;
+  font-family: Bai Jamjuree;
+}
+
+.button2:hover {
+    background: linear-gradient(0deg, #b16cea 14%, #ff5e69 45%, #ff8a56 72%, #ffa84b 100%);
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+.about_info {
+  color: #42446e;
+  letter-spacing: -1px;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ebeaed;
+}
+
+.about_info:not(:first-child) {
+  padding-top: 20px;
+}
+
+.info_container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ebeaed;
+
+  &:not(:first-child) {
+    padding-top: 1rem;
+  }
+}
+
+.info_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info_title {
+  margin: 0;
+  color: #666666;
+  letter-spacing: 1;
+  line-height: 28px;
+  font-size: 20px;
+}
+
+
+.title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 26px;
+  color: black;
+  margin-top: px; 
+
+}
+
+.title2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 26px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+
+.description {
+  font-family: "Bai Jamjuree";
+  color: #666666;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.big_description {
+  font-family: "Bai Jamjuree";
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  padding-right: 100px;
+}
+
+.tech_wrapper {
+  margin-top: 8rem;
+}
+
+.skills_title_center {
+  display: flex;
+  justify-content: center;
+}
+
+.about_me_description2{
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  max-width: 1200px;
+}
+
+.about_me_description {
+  color: #666666;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  max-width: 700px;
+}
+
+.stack_wrapper {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  justify-items: center;
+  grid-gap: 80px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.form_container {
+  display: flex;
+}
+
+.unit_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  justify-items: center;
+  grid-gap: 35px;
+}
+
+.unit_wrapper {
+  background: #ffffff;
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  max-width: 375px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.unit_img {
+  border-radius: 20px 20px 0 0;
+  width: 375px;
+  height: 260px;
+}
+
+.unit_title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 26px;
+  color: #000000;
+  padding: 0 20px;
+}
+
+.units_description {
+  color: #666666;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 0 20px;
+}
+
+.unit_link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 20px 20px 20px;
+}
+
+.unit_zoom:hover {
+  transition: 0.5s;
+}
+
+.unit_button{
+  width: 320px;
+  height: 32px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Bai Jamjuree;
+}
+
+.unit_button:hover {
+  background-color: gray;
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+.download_button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.downloads_button a {
+  padding: 20px;
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.downloads_button a:not(:last-child) {
+  margin-right: 40px;
+}
+
+
+.download_button a {
+  padding: 20px;
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.unit_description {
+  display: flex;
+  padding: 0;
+}
+
+.unit_description .about_me_description:not(:last-child) {
+  margin-right: 40px;
+}
+
+.about_me_full_description {
+  color: #666666;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.about_me_wrapper {
+  display: flex;
+  justify-content: space-between;
+ 
+  margin-bottom: 10px;
+}
+
+.about_me_container{
+  margin: 0px;
+  padding: 0px;
+  gap: 0px;
+}
+
+.unit_photo {
+  width: 400px;
+  border: 0.5px solid;
+}
+
+.level2{
+  display: none;
+}
+
+.hamburger-menu{
+  display: none;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .header_container {
+    display: flex;
+    align-items: center;
+  }
+
+  .social_link{
+    display: none;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+  }
+
+  .info {
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .about_me_wrapper {
+    flex-direction: column;
+  }
+
+  .unit_description {
+    flex-direction: column;
+  }
+
+  .downloads_button {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* Initially hide navigation links and apply styles */
+  .nav_link {
+    display: none;
+    color: black;
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  /* Apply transition effect for smooth sliding */
+  .nav_link.slide-in {
+    display: block;
+    animation: slideIn 0.5s forwards;
+  }
+
+  .dropdown{
+    display: none;
+  }
+
+  .level2{
+    display: flex;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .level2:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s;
+  }
+ 
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  /* Display hamburger menu icon */
+  .hamburger-menu {
+    cursor: pointer;
+    display: flex;
+  }
+
+  .hamburger-menu img{
+    width: 30px;
+  }
+
+  .button2{
+    background: linear-gradient(0deg, #b16cea 14%, #ff5e69 45%, #ff8a56 72%, #ffa84b 100%);
+    color: white;
+    border-style: none;
+    cursor: pointer;
+  }
+
+  .title2{
+    line-height: 20px;
+}
+
+
