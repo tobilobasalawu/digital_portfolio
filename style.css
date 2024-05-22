@@ -7,6 +7,10 @@ p{
   color: black;
 }
 
+p.employment {
+    font-size: 30px;
+}
+
 .zoom:hover {
   transform: scale(1.2);
   transition: transform 0.3s;
