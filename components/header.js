@@ -36,13 +36,13 @@ class Header extends HTMLElement {
         </ul>
         <ul class="social_link">
           <li class="zoom">
-            <a href="https://github.com/tobilobasalawu"><img src="./image/github.svg" alt="Twitter" width="{30}" height="{30}" /></a>
+            <a href="https://github.com/tobilobasalawu"><img src="./image/github.svg" alt="Github" width="{30}" height="{30}" /></a>
           </li>
           <li class="zoom">
-            <a href="https://twitter.com/SalawuToby"><img src="./image/email.svg" alt="Email" width="{30}" height="{30}" /></a>
+            <a href="https://snapchat.com/t/xwfiibNY"><img src="./image/snapchat.png" alt="Snapchat" width="{30}" height="{30}" /></a>
           </li>
           <li class="zoom">
-            <a href="https://uk.linkedin.com/in/oluwatobi-s-637258246"><img src="./image/linkedin.svg" alt="LinkedIn" width="{30}" height="{30}" /></a>
+            <a href="https://uk.linkedin.com/in/oluwatobi-s-637258246"><img src="./image/linkedin.png" alt="LinkedIn" width="{30}" height="{30}" /></a>
           </li>
         </ul>
       </nav>
