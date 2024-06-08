@@ -24,7 +24,7 @@ Welcome to my digital portfolio! This portfolio showcases my academic achievemen
 4. **Level 2 IT Work**: A dedicated section for my Level 2 IT coursework, including descriptions of assignments and projects.
 
 ## Installation and Setup
-1. **Clone the Repository**: `git clone <repository-url>`
+1. **Clone the Repository**: `git clone <https://github.com/tobilobasalawu/digital_portfolio>`
 2. **Open the Project Folder**: Navigate to the project directory.
 3. **Open index.html**: Launch the `index.html` file in your preferred web browser to view the portfolio.
 
