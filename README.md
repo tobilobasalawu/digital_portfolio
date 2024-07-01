@@ -3,7 +3,7 @@
 # My College Digital Portfolio📚
 
 ## Overview
-Welcome to my digital portfolio! This portfolio showcases my academic achievements, projects, skills, and experiences throughout my college journey. It is designed to provide a comprehensive view of my capabilities and accomplishments in a professional and visually appealing manner.
+This repository contains the code used to create the digital portfolio! This portfolio showcases my academic achievements, projects, skills, and experiences throughout my college journey. It is designed to provide a comprehensive view of my capabilities and accomplishments in a professional and visually appealing manner.
 
 ## Features
 - **Responsive Design**: The portfolio is fully responsive and can be accessed on various devices, including desktops, tablets, and smartphones.
